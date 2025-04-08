@@ -1,12 +1,16 @@
-# Joomla Workflow Enhancer  
-A module to improve Joomla workflow management.  
+# Joomla Workflow Enhancer
 
-## Features  
-- Email notifications when articles change workflow stages.  
-- Dashboard widget showing pending articles.  
+## Features
+- Dashboard widget showing pending articles
+- Email notifications for workflow changes
+- Customizable email templates
 
-## Installation  
-1. Download the ZIP.  
-2. Install via Joomla Admin → Extensions → Manage → Install.  
+## Installation
+1. Download the latest release
+2. Install via **Extensions → Manage → Install**
+3. Configure email templates in module parameters
 
-## Screenshots  
+## Development
+```bash
+composer install
+composer test
