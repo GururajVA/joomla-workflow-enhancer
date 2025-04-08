@@ -12,5 +12,10 @@
 
 ## Development
 ```bash
+git commit -m "feat: Add email notification logic"  
+git commit -m "test: Add PHPUnit tests for pending articles"
+
+composer exec phpcs modules/mod_workflow_enhancer --standard=Joomla  
+
 composer install
 composer test
