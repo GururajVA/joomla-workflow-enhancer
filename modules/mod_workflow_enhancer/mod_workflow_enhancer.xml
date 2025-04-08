@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="5.0" client="site" method="upgrade">
+    <name>MOD_WORKFLOW_ENHANCER</name>
+    <author>Your Name</author>
+    <version>1.0.0</version>
+    <description>MOD_WORKFLOW_ENHANCER_XML_DESC</description>
+    
+    <files>
+        <filename module="mod_workflow_enhancer">mod_workflow_enhancer.php</filename>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+        <folder>media</folder>
+    </files>
+    
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                    name="email_template"
+                    type="textarea"
+                    label="MOD_WORKFLOW_ENHANCER_EMAIL_TEMPLATE_LABEL"
+                    description="MOD_WORKFLOW_ENHANCER_EMAIL_TEMPLATE_DESC"
+                    default="Article {title} has moved to {stage}."
+                    rows="5"
+                />
+            </fieldset>
+        </fields>
+    </config>
+    
+    <namespace path="src">Joomla\Module\WorkflowEnhancer</namespace>
+</extension>

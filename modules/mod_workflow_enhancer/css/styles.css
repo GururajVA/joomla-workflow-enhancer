@@ -1,0 +1,19 @@
+.workflow-enhancer {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.pending-articles li {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge-warning {
+  background: #ffc107;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 0.85em;
+}
